@@ -10,4 +10,4 @@ class Calculator:
         self.current_value /= value
     def get_current(self):
         return self.current_value
-
+cal = Calculator()
