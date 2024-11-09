@@ -8,6 +8,11 @@ def rps(player_choice):
         "paper": ("rock", "scissors"),
         "scissors": ("paper", "rock")
     }
+    if player_choice not in ["rock", "paper", "scissors"]:
+        print("\rInvalid choice. Choose rock, paper, or scissors.")
+        return
+
+
     for x in range(0, 4):
         b = "The computer is thinking" + "." * x
         print(f"\r{b}", end="")
@@ -18,5 +23,6 @@ def rps(player_choice):
             print(f"\r{player_choice} beats {outcomes[player_choice][0]}. You win!")
         else:
             print(f"\r{outcomes[player_choice][1]} beats {player_choice}. You lose!")
-    else:
-        print("\rInvalid choice. Choose rock, paper, or scissors.")
+
+
+
