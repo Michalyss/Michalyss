@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Michalyss
 - 👀 I’m interested in coding in python 
 - 🌱 I’m currently learning python 
-- 💞️ I’m looking to collaborate on with people who like contributing to opeen soucre projects
+- 💞️ I’m looking to collaborate on with people 
 - 📫 How to reach me, just email me
 - 😄 Pronouns: he
 - ⚡ Fun fact: I am a beginner at programming 
